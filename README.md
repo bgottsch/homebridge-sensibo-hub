@@ -59,7 +59,8 @@ Please use the [issues](https://github.com/bgottsch/homebridge-sensibo-hub/issue
 * [xml2js](https://www.npmjs.com/package/xml2js)
 * [json-diff](https://www.npmjs.com/package/json-diff)
 
-* This project would not be possible if not by [Homebridge](https://github.com/nfarina/homebridge)
-* This project uses the [Sensibo](https://sensibo.com/) as documented [here](https://sensibo.github.io/)
+This project would not be possible if not by [Homebridge](https://github.com/nfarina/homebridge)
+
+This project uses the [Sensibo](https://sensibo.com/) as documented [here](https://sensibo.github.io/)
 
 This project is not affiliated with [Sensibo](https://sensibo.com/) nor with [Homebridge](https://github.com/nfarina/homebridge), and was designed with a personal/hobbyist usage in mind.
