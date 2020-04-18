@@ -12,7 +12,7 @@
           "description": "This name is only visible in the Homebridge logs.",
           "type": "string",
           "required": true,
-          "default": "Sensibo"
+          "default": "sensibo-hub"
         },
         "api_key": {
           "title": "API Key",
