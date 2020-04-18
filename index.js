@@ -1,11 +1,6 @@
-'use strict';
-
-const dynamic = true;
-
-const SensiboPlatformModule = require('./lib/platform');
-const SensiboPlatform = SensiboPlatformModule.SensiboPlatform;
+"use strict";
 
 module.exports = function (homebridge) {
-	SensiboPlatformModule.setHomebridge(homebridge);
-	homebridge.registerPlatform('homebridge-sensibo', 'Sensibo', SensiboPlatform, dynamic);
+	let SensiboHub = require("./lib/SensiboHub")(homebridge);
+	homebridge.registerPlatform("homebridge-sensibo-hub", "sensibo-hub", SensiboHub, true);
 };

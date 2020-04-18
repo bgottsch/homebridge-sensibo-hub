@@ -18,8 +18,7 @@
           "title": "API Key",
           "description": "API Key retrieved from Sensibo portal.",
           "type": "string",
-          "required": true,
-          "default": ""
+          "required": true
         },
         "refresh_interval": {
           "title": "Refresh Interval",
@@ -27,6 +26,13 @@
           "type": "integer",
           "required": false,
           "default": 30000
+        },
+        "enable_fanDry": {
+          "title": "Enable Fan/Dry Mode",
+          "description": "If the A/C is compatible (has fan and dry support), when active, adds a switch to change the modes (cool --> fan | heat --> dry).",
+          "type": "boolean",
+          "required": false,
+          "default": false
         }
       }
     },
@@ -37,7 +43,8 @@
         "items": [
           "name",
           "api_key",
-          "refresh_interval"
+          "refresh_interval",
+          "enable_fanDry"
         ]
       }
     ]
